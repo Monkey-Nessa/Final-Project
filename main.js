@@ -1,8 +1,8 @@
 function slideSwitch() {
   var activeSlide=$("#image-container img.active");
   var nextSlide=activeSlide.next();
-  nextSlide.addClass("active");
-  activeSlide.removeClass("active");
+    nextSlide.addClass("active");
+    activeSlide.removeClass("active");
 }
 
 $(function() {
